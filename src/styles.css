@@ -1,4 +1,60 @@
 /* styles.css */
 body {
+  display: flex;
+  align-content: start;
   background-color: yellow;
+  padding: 0;
+  margin:0;
 }
+
+.nav-bar {
+display: flex;
+width: 100%;
+height: 100px;
+background-color: deeppink;
+}
+.nav-text {
+display: flex;
+align-content: center;
+height: 100%;
+width: 55%;
+background-color: salmon;
+}
+
+.nav-text h3  {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  padding-left: .75em;
+  margin-top: 35px;
+}
+
+.arrow {
+  height: 100%;
+  width: 25%;
+  background-color: salmon;
+
+}
+
+span {
+  font-size: 75px;
+}
+
+.hamburger {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+width: 20%;
+background-color: deeppink;
+margin-top: -10px;
+}
+
+.lil-burger-divs {
+  width: 60px;
+  height: 6px;
+  background-color: black;
+  margin-top: 12px;
+}
+
+
